@@ -100,6 +100,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "starlitstory:build:production",
+            "firebaseProject": "starlitstory-576de",
+            "firebaseHostingSite": "starlitstory-576de"
+          }
         }
       }
     }

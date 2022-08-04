@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'test',
   templateUrl: './starlitstory.component.html',
   styleUrls: ['./starlitstory.component.scss']
 })
-export class AppComponent {
+export class SLSComponent {
   title = 'starlitstory';
 }

@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "starlitstory-576de"
+  },
+  "targets": {
+    "starlitstory-576de": {
+      "hosting": {
+        "starlitstory": [
+          "starlitstory-576de"
+        ]
+      }
+    }
+  }
+}
