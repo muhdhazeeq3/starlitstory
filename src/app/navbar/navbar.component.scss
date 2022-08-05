@@ -1,0 +1,17 @@
+.navbar-top {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-top-item {
+    display: block;
+    padding: 8px 16px;
+    text-align: center;
+    float: left;
+}
+
+.navbar-top-search {
+    padding: 8px 16px;
+    float: right !important;
+}
