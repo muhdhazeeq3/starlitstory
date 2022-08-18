@@ -1,17 +1,78 @@
-.navbar-top {
-    position: fixed;
+// .navbar-top {
+//     position: fixed;
+//     width: 100%;
+//     z-index: 1;
+// }
+
+// .navbar-top-item {
+//     display: block;
+//     padding: 8px 16px;
+//     text-align: center;
+//     float: left;
+// }
+
+// .navbar-top-search {
+//     padding: 8px 16px;
+//     float: right !important;
+// }
+
+.navbar {
+
+    position: sticky;
+    top: 0;
     width: 100%;
-    z-index: 1;
-}
-
-.navbar-top-item {
-    display: block;
-    padding: 8px 16px;
+    background-color: black;
+    color: #fff;
+    // display: flex;
+    padding: 25px 16px;
+    align-items: center;
+    vertical-align: middle;
+    // height: 56px;
+    font: 500 20px/32px Roboto, "Helvetica Neue", sans-serif;
+  }
+  
+  #header_title {
     text-align: center;
-    float: left;
+   
+  }
+
+  #header_title:hover {
+    color: blue;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+    overflow: hidden;
 }
 
-.navbar-top-search {
-    padding: 8px 16px;
-    float: right !important;
+  #stars > i {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #fff, 
+                0 0 15px #fff, 
+                0 0 25px #fff;
+    animation: animate linear infinite; 
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    95% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }

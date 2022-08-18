@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'test',
+  selector: 'app-starlitstory',
   templateUrl: './starlitstory.component.html',
   styleUrls: ['./starlitstory.component.scss']
 })
